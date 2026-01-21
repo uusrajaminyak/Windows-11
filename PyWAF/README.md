@@ -83,5 +83,5 @@ An attempt to step back directories to read system files (`../etc/passwd`).
 * Flask
 
 ---
-Created by: Yustinus Hendi Setyawan
-Date: Monday, December 22 2025
+* Created by: Yustinus Hendi Setyawan
+* Date: Monday, December 22 2025

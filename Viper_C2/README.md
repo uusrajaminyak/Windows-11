@@ -67,5 +67,5 @@ As shown below, the agent receives encrypted strings, proving that the actual co
 * Flask Library
 
 ---
-Created by: Yustinus Hendi Setyawan
-Date: Wednesday, December 24 2025
+* Created by: Yustinus Hendi Setyawan
+* Date: Wednesday, December 24 2025

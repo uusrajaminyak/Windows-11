@@ -63,5 +63,5 @@ The Wazuh Agent installed on the endpoint ("uus") successfully captured the syst
 * Python 3+
 
 ---
-Created by: Yustinus Hendi Setyawan
-Date: Monday, December 22 2025
+* Created by: Yustinus Hendi Setyawan
+* Date: Monday, December 22 2025
