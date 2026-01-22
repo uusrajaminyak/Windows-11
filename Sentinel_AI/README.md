@@ -7,7 +7,7 @@
 
 ## Overview
 
-This project is a next-generation static analysis tool designed to detect malicious executables without running them. Unlike traditional antivirus software that relies on database signatures (hashes), this project utilizes Machine Learning and Randmo Forest Algorithm to identify suspicious characteristics in the file structure. The system analyzes the Portable Executable (PE) Header to extract critical features—specifically Shannon Entropy and Import Address Table (IAT) size to classify files as "Benign" or "Malware" with high probability.
+This project is a next-generation static analysis tool designed to detect malicious executables without running them. Unlike traditional antivirus software that relies on database signatures (hashes), this project utilizes Machine Learning and Randmo Forest Algorithm to identify suspicious characteristics in the file structure. The system analyzes the Portable Executable (PE) Header to extract critical features, specifically Shannon Entropy and Import Address Table (IAT) size to classify files as "Benign" or "Malware" with high probability.
 
 ## Key Features 
 
