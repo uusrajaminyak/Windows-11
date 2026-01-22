@@ -12,7 +12,7 @@ This project is a next-generation static analysis tool designed to detect malici
 ## Key Features 
 
 ### 1. Feature Engineering
-* Indicates that the code is packed, compressed, or encrypted—a common technique used by malware to hide its payload from reverse engineering.
+* Indicates that the code is packed, compressed, or encrypted, a common technique used by malware to hide its payload from reverse engineering.
 * Legitimate software usually imports hundreds of system functions (APIs). Malware often hides its imports or uses packing tools, resulting in a suspiciously low number of visible imports.
 
 ### 2. Random Forest Classifier
