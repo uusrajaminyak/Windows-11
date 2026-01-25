@@ -7,8 +7,8 @@ from fpdf import FPDF
 GUEST_IP = "192.168.75.128"
 GUEST_URL = f"http://{GUEST_IP}:5000"
 VMX_PATH = r"E:\SandboxVM.vmx"
-VMRUN_PATH = r"C:\Program Files (x86)\VMware\VMware Workstation\vmrun.exe"
-SNAPSHOT_NAME = "ReadyState"
+VMRUN_PATH = r"E:\VMWareVms\vmrun.exe"
+SNAPSHOT_NAME = "Master_Ready"
 MALWARE_SAMPLE = "putty.exe"
 REPORT_DIR = "REPORTS"
 
@@ -25,7 +25,7 @@ def run_vm_command(action, extra_args=""):
 
 def revert_vm():
     print("Reverting VM to snapshot...")
-    run_vm_command(f"revertToSnapshot {SNAPSHOT_NAME}")
+    run_vm_command(f"revertToSnapshot", SNAPSHOT_NAME)
     print(f"Starting VM")
     run_vm_command("start")
     print("Waiting Windows & agent startup...")
